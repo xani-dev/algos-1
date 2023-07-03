@@ -11,7 +11,21 @@
 # You may assume that the input string is well-formed according to the previously mentioned pattern.
 
 def decompress(s):
-    pass #TODO:
+    #Convert word to list, using Unpack Method(*)
+    word_to_list = [*s]
+    print(word_to_list)
+    
+    #Find Numbers in list and convert them to Integers
+    for c in word_to_list: 
+       if c.isdigit():
+           repeat_by = (int(c))
+        #    print(repeat_by)
+       else:
+           final_string = ''
+           final_string = ''.join((final_string , (c*repeat_by)))
+           print(final_string)
+       
+            
 
 
 
