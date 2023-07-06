@@ -39,7 +39,7 @@ def compress(s):
 
 # TEST CASES
 compress('ccaaatsss')  # -> '2c3at3s'
-# compress('ssssbbz') # -> '4s2bz'
-# compress('ppoppppp') # -> '2po5p'
-# compress('nnneeeeeeeeeeeezz') # -> '3n12e2z'
-# compress('yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy');  # -> '127y'
+compress('ssssbbz') # -> '4s2bz'
+compress('ppoppppp') # -> '2po5p'
+compress('nnneeeeeeeeeeeezz') # -> '3n12e2z'
+compress('yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy');  # -> '127y'
