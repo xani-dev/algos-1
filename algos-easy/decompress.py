@@ -27,23 +27,6 @@ def decompress(s):
             
     print(new_string)
             
-    # #Convert word to list, using Unpack Method(*)
-    # word_to_list = [*s]
-    # # print(word_to_list)
-    # final_string = []
-
-    # # Find Numbers in list and convert them to Integers
-    # for c in word_to_list: 
-    #    if c.isdigit():
-    #        repeat_by = (int(c))
-    #        print(repeat_by)
-    #    else:
-           
-    #        final_string.append(c*repeat_by)
-    # # print(final_string)
-    # print(''.join(final_string))
-       
-
 
 # TEST CASES
 decompress("2c3a1t") # -> 'ccaaat'

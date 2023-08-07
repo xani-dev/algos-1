@@ -33,7 +33,6 @@ def compress(s):
                 result.append(str(char_count))
                 result.append(s[i])
             i = j
-    print(result)
     print(''.join(result))
 
 
