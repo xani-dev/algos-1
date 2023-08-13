@@ -8,11 +8,20 @@
 
 
 def two_sum(numbers, target_sum):
-    for i in range(len(numbers)):
-        for j in range(i+1, len(numbers)):
-            if numbers[i] + numbers[j] == target_sum:
-                return(i,j) 
-        
+    # for i in range(len(numbers)):
+    #     for j in range(i+1, len(numbers)):
+    #         if numbers[i] + numbers[j] == target_sum:
+    #             return(i,j)
+    
+    # Enhanced solution using HASH 
+    hash = {}
+    for i, num in enumerate(numbers):
+        complement = target_sum - num
+        # print Hash
+        if complement in hash:
+            return (hash[complement], i)
+        else:
+            hash[num] = i
         
 
 
